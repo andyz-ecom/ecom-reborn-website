@@ -298,3 +298,20 @@ ul.tabs li.current {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
+
+/*Categories*/
+.categories { background: #F5F5F6; overflow: hidden; border-top: 1px solid #ddd;}
+.categories-tab { height: 560px; padding: 30px; background: #DDD; }
+.categories-tab a { display: block; width: 100%; text-align: center; height: 50px; line-height: 50px; font-size: 20px;letter-spacing: 1px; margin-top: 15px;}
+.categories-tab a:hover,.categories-tab a:active,.categories-tab a:focus{text-decoration: none!important;cursor: pointer;}
+
+.categories-panes { padding: 30px; }
+.categories-panes .firstpane > h2 { font-size: 28px; font-weight: 700; text-align: center; }
+.categories-panes .firstpane > p { line-height: 1.5; font-size: 16px; text-align: center; color: #666; }
+.firstpane { display: none; }
+.firstpane > h2 >img, .categories-tab a >img{ width: 35px;  margin: 0 10px 5px 0;}
+.intro-head {padding-top: 15px;}
+.panes-head { display: block; padding-left: 15px; height: 50px; line-height: 50px; font-size: 20px; background: #DDD; margin-top: 10px; color: #004986; }
+.panes-head i { display: block; float: right; width: 50px; height: 50px; line-height: 50px; text-align: center; font-size: 30px; color: #FFF; background-color: #3f3f3f; cursor: pointer; font-style:normal; }
+.panes-body { display: block; font-size: 15px; line-height: 25px; padding:15px; }
+.panes-body li{list-style-type: disc;list-style-position: outside;margin-left: 15px;  }

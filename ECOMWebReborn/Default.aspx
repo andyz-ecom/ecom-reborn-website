@@ -243,156 +243,66 @@
                </div>
             </div>
             <!-- ----- MODULE 3 -------------------------------------------------------------------------------------------------------------- -->
-            <div id="S-module3">
-               <div id="mdl-loanprocess" class="row">
-                  <div class="container">
-                     <div class="col-sm-4 hidden-xs" style="background: #dddddd">
-                        <div class="lp-tabs">
-                           <ul class="tabs">
-                              <li class="tab-link current" data-tab="tab-1">
-                                 Purchase Basics
-                              </li>
-                              <li class="tab-link" data-tab="tab-2">
-                                 Refinance Advantages
-                              </li>
-                              <li class="tab-link" data-tab="tab-3">
-                                 The Loan Process
-                              </li>
-                              <li class="tab-link" data-tab="tab-4">
-                                 Prepare
-                              </li>
-                              <li class="tab-link" data-tab="tab-5">
-                                 Mortgage Rates
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-sm-8 hidden-xs" style="background: #dddddd">
-                        <div class="lp-panes">
-                           <div id="tab-1" class="tab-pane current">
-                              <div class="col-12">
-                              </div>
-                           </div>
-                           <div id="tab-2" class="tab-pane">
-                              CATS...
-                           </div>
-                           <div id="tab-3" class="tab-pane">
-                              CATS...
-                           </div>
-                           <div id="tab-4" class="tab-pane">
-                              CATS...
-                           </div>
-                           <div id="tab-5" class="tab-pane">
-                              CATS...
-                           </div>
-                        </div>
-                     </div>
-                     
-                     <div class="row visible-xs">
-                        <div class="panel-group">
-                           <div class="panel panel-default">
-                              <div class="panel-heading">
-                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" href="#collapse1">
-                                    Understand the Loan Process
-                                    </a>
-                                 </h4>
-                              </div>
-                              <div id="collapse1" class="panel-collapse collapse">
-                                 <div class="panel-group" id="accordion">
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading">
-                                          <h4 class="panel-title">
-                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1a">
-                                             1. Getting a Consultation
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <div id="collapse1a" class="panel-collapse collapse in">
-                                          <div class="panel-body">
-                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                             commodo consequat.
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading">
-                                          <h4 class="panel-title">
-                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1b">
-                                             2. Submitting the Application
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <div id="collapse1b" class="panel-collapse collapse">
-                                          <div class="panel-body">
-                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                             commodo consequat.
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading">
-                                          <h4 class="panel-title">
-                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1c">
-                                             3. Processing
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <div id="collapse1c" class="panel-collapse collapse">
-                                          <div class="panel-body">
-                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                             commodo consequat.
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading">
-                                          <h4 class="panel-title">
-                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1d">
-                                             4. Underwriting
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <div id="collapse1d" class="panel-collapse collapse">
-                                          <div class="panel-body">
-                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                             commodo consequat.
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                       <div class="panel-heading">
-                                          <h4 class="panel-title">
-                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1e">
-                                             5. Closing
-                                             </a>
-                                          </h4>
-                                       </div>
-                                       <div id="collapse1e" class="panel-collapse collapse">
-                                          <div class="panel-body">
-                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                                             minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                             commodo consequat.
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+           
+             <div class="categories">
+	            <div class="container">
+		            <div class="col-lg-4">
+			            <div class="categories-tab">
+					            <a href="javascript:;"><img src="img/icon1.png"/>Category #1</a>
+					            <a href="javascript:;"><img src="img/icon2.png"/>Category #2</a>
+					            <a href="javascript:;"><img src="img/icon3.png"/>Category #3</a>
+					            <a href="javascript:;"><img src="img/icon4.png"/>Category #4</a>
+			            </div>
+		            </div>
+		            <div class="col-lg-8">
+			            <div class="categories-panes">
+                            <div class="firstpane">
+					            <h2><img src="img/icon1.png"/>Category 1 Title</h2>
+					            <p>s a simple way to let others contribute content. Any GitHub user can create and edit pages to use for documentation, examples, support, or anything you wish.</p>
+					            <h3 class="panes-head">Title 1-1<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Ladyship it daughter securing procured or am moreover mr. Put sir she exercise vicinity cheerful wondered. Continual say suspicion provision you neglected sir curiosity unwilling. Simplicity end themselves increasing led day sympathize yet. General windows effects not are drawing man garrets. Common indeed garden you his ladies out yet. Preference imprudence contra</div>
+					            <h3 class="panes-head current">Title 1-2<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Neat own nor she said see walk. And charm add green you these. Sang busy in this drew ye fine. At greater prepare musical so attacks as on distant. Improving age our her cordially intention. His devonshire sufficient precaution say preference middletons insipidity. Since might water hence the her worse. </div>
+					            <h3 class="panes-head">Title 1-3<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Sussex result matter any end see. It speedily me addition weddings vicinity in pleasure. Happiness commanded an conveying breakfast in. Regard her say warmly elinor. Him these are visit front end for seven walls. Money eat scale now ask law learn. Side its they just any upon see last. He prepared no shutters perceive do greatest. Ye at unpleasant solicitude in companions interested. </div>
+				            </div>      
+				            <div class="firstpane">
+					            <h2><img src="img/icon2.png"/>Category 2 Title</h2>
+					            <p>Kindness to he horrible reserved ye. Effect twenty indeed beyond for not had county. The use him without greatly can private. </p>
+					            <h3 class="panes-head">Title 2-1<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Must you with him from him her were more. In eldest be it result should remark vanity square. Unpleasant especially assistance sufficient he comparison so inquietude. Branch one shy edward stairs turned has law wonder horses. </div>
+					            <h3 class="panes-head current">Title 2-2<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Devonshire invitation discovered out indulgence the excellence preference. Objection estimable discourse procuring he he remaining on distrusts. Simplicity affronting inquietude for now sympathize age. She meant new their sex could defer child. An lose at quit to life do dull. </div>
+					            <h3 class="panes-head">Title 2-3<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">ull age sex set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. </div>
+				            </div>
+				            <div class="firstpane">
+					             <h2><img src="img/icon3.png"/>Category 3 Title</h2>
+					            <p>Kindness to he horrible reserved ye. Effect twenty indeed beyond for not had county. The use him without greatly can private. </p>
+					            <h3 class="panes-head">Title 3-1<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Must you with him from him her were more. In eldest be it result should remark vanity square. Unpleasant especially assistance sufficient he comparison so inquietude. Branch one shy edward stairs turned has law wonder horses. </div>
+					            <h3 class="panes-head current">Title 3-2<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Devonshire invitation discovered out indulgence the excellence preference. Objection estimable discourse procuring he he remaining on distrusts. Simplicity affronting inquietude for now sympathize age. She meant new their sex could defer child. An lose at quit to life do dull. </div>
+					            <h3 class="panes-head">Title 3-3<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">ull age sex set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. </div>
+				            </div>
+				            <div class="firstpane">
+					            <h2><img src="img/icon4.png"/>Category 4 Title</h2>
+					            <p>Kindness to he horrible reserved ye. Effect twenty indeed beyond for not had county. The use him without greatly can private. </p>
+					            <h3 class="panes-head">Title 4-1<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Must you with him from him her were more. In eldest be it result should remark vanity square. Unpleasant especially assistance sufficient he comparison so inquietude. Branch one shy edward stairs turned has law wonder horses. </div>
+					            <h3 class="panes-head current">Title 4-2<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">Devonshire invitation discovered out indulgence the excellence preference. Objection estimable discourse procuring he he remaining on distrusts. Simplicity affronting inquietude for now sympathize age. She meant new their sex could defer child. An lose at quit to life do dull. </div>
+					            <h3 class="panes-head">Title 4-3<i class="fa fa-angle-down">&#8744;</i></h3>
+					            <div style="display: none;" class="panes-body">ull age sex set feel her told. Tastes giving in passed direct me valley as supply. End great stood boy noisy often way taken short. </div>
+				            </div>
+				
+			            </div>
+		            </div>
+	            </div>
             </div>
+
+
             <!-- ----- MODULE 4 -------------------------------------------------------------------------------------------------------------- -->
             <div id="S-module4" style="background-image: url(img/bg-001.jpg); background-repeat: no-repeat; background-attachment: fixed; background-position: center top; background-size: 100% auto">
                <div id="mdl-loantypes" class="row">

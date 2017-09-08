@@ -109,6 +109,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="img\house001.jpg" />
+    <Content Include="img\icon1.png" />
+    <Content Include="img\icon2.png" />
+    <Content Include="img\icon3.png" />
+    <Content Include="img\icon4.png" />
     <Content Include="img\logo.jpg" />
     <Content Include="img\logos.png" />
     <Content Include="img\process001.jpg" />
@@ -118,6 +122,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\ie10-viewport-bug-workaround.js" />
     <Content Include="js\jquery-3.2.1.slim.min.js" />
+    <Content Include="js\master.js" />
     <Content Include="js\popper.min.js" />
     <Content Include="packages.config" />
     <Content Include="js\jquery-1.8.2.min.js" />

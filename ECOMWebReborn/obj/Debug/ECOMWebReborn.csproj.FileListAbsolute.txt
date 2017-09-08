@@ -24,3 +24,16 @@ C:\ECOMProjects\ECOMWebReborn\ECOMWebReborn\bin\Microsoft.AspNet.FriendlyUrls.xm
 C:\ECOMProjects\ECOMWebReborn\ECOMWebReborn\obj\Debug\ECOMWebReborn.csprojResolveAssemblyReference.cache
 C:\ECOMProjects\ECOMWebReborn\ECOMWebReborn\obj\Debug\ECOMWebReborn.dll
 C:\ECOMProjects\ECOMWebReborn\ECOMWebReborn\obj\Debug\ECOMWebReborn.pdb
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\ECOMWebReborn.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\ECOMWebReborn.pdb
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\EntityFramework.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\Microsoft.Web.Infrastructure.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\System.Web.Providers.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\EntityFramework.xml
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\obj\Debug\ECOMWebReborn.csprojResolveAssemblyReference.cache
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\obj\Debug\ECOMWebReborn.dll
+C:\ECOMProjects\ecom-reborn-website\ECOMWebReborn\obj\Debug\ECOMWebReborn.pdb

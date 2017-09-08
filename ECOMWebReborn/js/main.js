@@ -1,24 +1,13 @@
-﻿
-function add_class_on_scroll() {
-    header.classList.add("navbar-fixed-top");
-    header.classList.remove("navbar-static-top");
-}
-
-function remove_class_on_scroll() {
-    header.classList.add("navbar-static-top");
-    header.classList.remove("navbar-fixed-top");
-}
-
-$(document).ready(function () {
+﻿$(document).ready(function () {
 
     var scrollpos = window.scrollY;
-    var header = document.getElementById("S-menu");
+    var header = $('#S-menu');
     var windowheight = window.innerHeight;
-    var headerheight = document.getElementById("S-menu").offsetHeight;
+    var headerheight = header.outerHeight();
+
 
     $('ul.tabs li').click(function () {
         var tab_id = $(this).attr('data-tab');
-
         $('ul.tabs li').removeClass('current');
         $('.tab-pane').removeClass('current');
 
@@ -26,14 +15,30 @@ $(document).ready(function () {
         $("#" + tab_id).addClass('current');
     })
 
-    window.addEventListener('scroll', function () {
+    $(document).scroll(function () {
         scrollpos = window.scrollY;
         if (scrollpos > 25) {
-            add_class_on_scroll();
+            header.addClass("navbar-fixed-top");
+            header.removeClass("navbar-static-top");
         } else {
-            remove_class_on_scroll();
+            header.addClass("navbar-static-top");
+            header.removeClass("navbar-fixed-top");
         }
     });
+  
+    //Mortgage Category Model
+    $(".firstpane:eq(0)").show();
+    $('.categories-tab a').click(function () {
+        $(this).addClass('hit').siblings().removeClass('hit');
+        $('.firstpane:eq(' + $(this).index() + ')').show().siblings().hide();
+    })
+
+    $(".firstpane .panes-body:eq(0)").show();
+    $(".firstpane h3.panes-head").click(function () {
+        $(this).addClass("current").next("div.panes-body").slideToggle(300).siblings("div.panes-body").slideUp("slow");
+        $(this).siblings().removeClass("current");
+    });
+
 
 
 })
