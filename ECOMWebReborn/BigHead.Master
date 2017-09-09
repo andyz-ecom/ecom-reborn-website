@@ -1,0 +1,107 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="BigHead.master.cs" Inherits="ECOMWebReborn.BigHead" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="" name="description">
+	<meta content="" name="author">
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+	<link href="img/favicon.ico" rel="icon"><!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/master.css" rel="stylesheet"><!-- Custom styles for this template -->
+	<title></title>
+</head>
+
+<body>
+	<!-- Placeholder for banner -->
+	<div id="bighead-banner">
+		<div class="hidden-xs">
+            <asp:ContentPlaceHolder runat="server" ID="UpperContent" />
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-md navbar-light navbar-bighead" id="main-nav">
+      <a class="navbar-brand" href="#">
+          <img src="img/logo-main.png" width="30" height="30" class="d-inline-block" alt="">
+           <span class="small font-weight-bold">ECOM Mortgage, Inc.</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apply</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Consultation</a>
+              <a class="dropdown-item" href="#">Preapproval</a>
+              <a class="dropdown-item" href="#">Application</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Purchase</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Refinance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Preapproval</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content">
+    <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+    </div>
+
+    <!--## FOOTER SECTION ##-->
+    <footer class="footer border">   
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-sm-12 navbar navbar-expand-md">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Licensing</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
+                     </ul>
+
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-12">
+                    <p><b style="text-transform:uppercase;">Covina Office:</b><br>10 Freeway E. Holt Ave. Exit<br>1055 Park View Drive #355, Covina, CA 91724<br>T. (626) 678-9000 | F. (626) 678-9081</p>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <p><b style="text-transform:uppercase;">San Gabriel Office:</b><br>San Gabriel Hiltion Hotel Plaza<br>225 West Valley Blvd, Suite # H-133, San Gabriel, CA 91776<br>T. (626) 678-9076 | F. (626) 678-9081</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-sm-12"><p>Copyright © 2016 Home Loan Mortgage Company All Rights Reserved. NMLS:315655&nbsp;&nbsp;RE.License:01291043</p></div>
+           </div>     
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/master.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+

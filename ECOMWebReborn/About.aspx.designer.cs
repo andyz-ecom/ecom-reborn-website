@@ -7,11 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ECOMWebReborn
-{
-
-    public partial class About
-    {
-
+namespace ECOMWebReborn {
+    
+    
+    public partial class About {
     }
 }

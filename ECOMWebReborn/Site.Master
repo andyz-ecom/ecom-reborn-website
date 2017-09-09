@@ -8,9 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
-    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -21,7 +20,10 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- Placeholder for banner -->
+    <div class="container" style="height:100px;"></div>
+
+    <nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
           <img src="img/logo-main.png" width="30" height="30" class="d-inline-block" alt="">
            <span class="small font-weight-bold">ECOM Mortgage, Inc.</span></a>
@@ -63,12 +65,12 @@
     </div>
 
     <!--## FOOTER SECTION ##-->
-    <footer class="footer">   
+    <footer class="footer border">   
         <div class="container-fluid">
             <div class="row justify-content-center">
-                <div class="col-7 navbar navbar-expand-md">
+                <div class="col-lg-8 col-sm-12 navbar navbar-expand-md">
                     <ul class="navbar-nav mr-auto">
-                      <li class="nav-item"><a class="nav-link" href="#">LO Login</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
                       <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                       <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                       <li class="nav-item"><a class="nav-link" href="#">Licensing</a></li>
@@ -76,31 +78,18 @@
                       <li class="nav-item"><a class="nav-link" href="#">Sitemap</a></li>
                      </ul>
 
-                    <div class="btn-group">
-                          <button type="button" class="btn btn-secondary">Family Websites</button>
-                          <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" 
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                          </button>
-                          <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">ECOM Wholesale</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">ECOM Escrow</a>
-                          </div>
-                        </div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-1 align-content-end"><img alt="lendinglogo" src="http://www.ecomloan.com/Images/lending_logo.gif" /></div>
-                <div class="col-3">
+                <div class="col-lg-4 col-sm-12">
                     <p><b style="text-transform:uppercase;">Covina Office:</b><br>10 Freeway E. Holt Ave. Exit<br>1055 Park View Drive #355, Covina, CA 91724<br>T. (626) 678-9000 | F. (626) 678-9081</p>
                 </div>
-                <div class="col-3">
+                <div class="col-lg-4 col-sm-12">
                     <p><b style="text-transform:uppercase;">San Gabriel Office:</b><br>San Gabriel Hiltion Hotel Plaza<br>225 West Valley Blvd, Suite # H-133, San Gabriel, CA 91776<br>T. (626) 678-9076 | F. (626) 678-9081</p>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-6"><p>Copyright © 2016 Home Loan Mortgage Company All Rights Reserved. NMLS:315655&nbsp;&nbsp;RE.License:01291043</p></div>
+                <div class="col-lg-8 col-sm-12"><p>Copyright © 2016 Home Loan Mortgage Company All Rights Reserved. NMLS:315655&nbsp;&nbsp;RE.License:01291043</p></div>
            </div>     
         </div>
     </footer>
@@ -111,6 +100,8 @@
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/master.js"></script>
+
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
   </body>

@@ -7,7 +7,7 @@
 
     $(document).scroll(function () {
         scrollpos = window.scrollY;
-        if (scrollpos > 400) {
+        if (scrollpos > 25) {
             header.addClass("fixed-top");
         } else {
             header.removeClass("fixed-top");
